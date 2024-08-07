@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Inter-SemiBold;
+    src: url(../../assets/fonts/static/Inter-SemiBold.ttf);
+}
+
+.mybut{
+    width: 100%;
+    height: 15%;
+    border-radius: 6px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    cursor: pointer;
+    font-family: Inter-SemiBold;
+    font-weight: 600;
+    font-size: 12px;
+
+}
+
+.mybut:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+
